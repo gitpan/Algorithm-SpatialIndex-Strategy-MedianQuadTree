@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Algorithm-SpatialIndex-Strategy-MedianQuadTree
-version:            0.01
+version:            0.02
 abstract:           QuadTree splitting on bucket medians
 author:
     - Steffen Mueller <smueller@cpan.org>
@@ -11,7 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Algorithm::SpatialIndex:  0.03
+    Algorithm::SpatialIndex:  0.05
     Statistics::CaseResampling:  0.06
 no_index:
     directory:
